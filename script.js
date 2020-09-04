@@ -7,6 +7,8 @@ function setup() {
 }
 
 function draw() {
-    background(239,232,222);
-    ellipse(mouseX, mouseY, 10, 10);
+    background('#EFE8DE');
+    noStroke();
+    fill(255,206,71,255);
+    ellipse(mouseX, mouseY, 120, 120);
 }
