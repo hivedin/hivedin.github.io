@@ -12,7 +12,7 @@ function draw() {
     // ellipse(mouseX, mouseY, 120, 120);
     fill(255,206,71,255);
     push();
-    polygon(mouseX, mouseY, 120, 6);
+    polygon(mouseX, mouseY, 60, 6);
     pop();
 }
 
