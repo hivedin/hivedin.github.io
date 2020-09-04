@@ -8,12 +8,8 @@ function draw() {
     background('#EFE8DE');
     frameRate(120);
     noStroke();
-    // fill(255,206,71,255);
-    // ellipse(mouseX, mouseY, 120, 120);
     fill(255,206,71,255);
-    push();
-    polygon(mouseX, mouseY, 60, 6);
-    pop();
+    ellipse(mouseX, mouseY, 120, 120);
 }
 
 function windowResized(){
