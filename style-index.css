@@ -27,7 +27,8 @@ nav{
     margin: 11px auto 0 auto;
     justify-content: space-between;
     align-content: center;
-    width: 1258px;
+    width: 95vw;
+    max-width: 1258px;
 }
 
 .header-bar-logo{
