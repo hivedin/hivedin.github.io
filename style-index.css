@@ -5,10 +5,17 @@ body{
     background-repeat: no-repeat;
     /* background-color: #EFE8DE; */
     font-family: 'Noto Sans', sans-serif;
+    overflow-x: hidden;
 }
 
 h2{
     font-size: 36px;
+}
+
+@media only screen and (max-width: 600px){
+    h2{
+        font-size: 24px;
+    }
 }
 
 .header-bar-container{
@@ -45,4 +52,14 @@ nav{
     text-align: center;
     color: #410D68;
     border-bottom: 8px dotted #410D68;
+}
+
+@media only screen and (max-width: 600px){
+    .announcement{
+        width: fit-content;
+        margin: 40vh auto;
+        text-align: center;
+        color: #410D68;
+        border-bottom: 4px dotted #410D68;
+    }
 }
