@@ -7,17 +7,17 @@ function setup() {
 function draw() {
     background('#EFE8DE');
     frameRate(120);
-    noStroke();
-    fill(255,206,71,255);
-    ellipse(mouseX, mouseY, 120, 120);
+    hexagon(windowWidth*2/3,windowHeight*5/12,100);
+
+    endFunction();
 }
 
 function windowResized(){
     resizeCanvas(windowWidth,windowHeight);
 }
 
-function polygon(x, y, radius, npoints) {
-    let angle = TWO_PI / npoints;
+function hexagon(x, y, radius) {
+    let angle = TWO_PI / 6;
     beginShape();
     for (let a = 0; a < TWO_PI; a += angle) {
       let sx = x + cos(a) * radius;
@@ -26,4 +26,10 @@ function polygon(x, y, radius, npoints) {
     }
     endShape(CLOSE);
   }
+
+function endFunction(){
+    noStroke();
+    fill(255,206,71,255);
+    ellipse(mouseX, mouseY, 120, 120);
+}
   
