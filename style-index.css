@@ -1,6 +1,9 @@
 body{
     margin: 0 0 0 0;
-    background-color: #EFE8DE;
+    background-image: url(images/Frame\ 136.svg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    /* background-color: #EFE8DE; */
     font-family: 'Noto Sans', sans-serif;
 }
 
