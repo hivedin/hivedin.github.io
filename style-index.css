@@ -1,0 +1,31 @@
+body{
+    margin: 0 0 0 0;
+    background-color: #EFE8DE;
+}
+
+.header-bar-container{
+    position: fixed;
+    top: 0;
+    right: 0;
+    left: 0;
+    background-color: #EFE8DE;
+    height: 68px;
+    align-items: center;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.16);
+}
+
+nav{
+    display: flex;
+    margin: 11px auto 0 auto;
+    justify-content: space-between;
+    align-content: center;
+    width: 1258px;
+}
+
+.header-bar-logo{
+    height: 38px;
+}
+
+.header-bar-nav-items{
+    display: flex;
+}
