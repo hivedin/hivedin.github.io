@@ -1,6 +1,11 @@
 body{
     margin: 0 0 0 0;
     background-color: #EFE8DE;
+    font-family: 'Noto Sans', sans-serif;
+}
+
+h2{
+    font-size: 36px;
 }
 
 .header-bar-container{
@@ -28,4 +33,12 @@ nav{
 
 .header-bar-nav-items{
     display: flex;
+}
+
+.announcement{
+    width: fit-content;
+    margin: 40vh auto;
+    text-align: center;
+    color: #410D68;
+    border-bottom: 8px dotted #410D68;
 }
