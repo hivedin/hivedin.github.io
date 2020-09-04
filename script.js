@@ -7,7 +7,17 @@ function setup() {
 function draw() {
     background('#EFE8DE');
     frameRate(120);
-    hexagon(windowWidth*2/3,windowHeight*5/12,100);
+    noFill();
+    strokeWeight(8);
+    stroke(255,206,71,255);
+
+    push();
+    hexagon(windowWidth*4/12,windowHeight*5/12,100);
+    pop();
+
+    push();
+    hexagon(windowWidth*9/12,windowHeight*8/12,100);
+    pop();
 
     endFunction();
 }
