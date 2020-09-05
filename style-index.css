@@ -20,7 +20,7 @@ h2 {
 
 nav {
     display: flex;
-    margin: 11px auto 0 auto;
+    margin: 8px auto 0 auto;
     justify-content: space-between;
     align-items: center;
     width: 95vw;
