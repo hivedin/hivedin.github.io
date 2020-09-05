@@ -130,11 +130,18 @@ nav {
 }
 
 .form-container embed{
-    margin: auto 0px 0px auto;
+    margin: auto 10px 0px auto;
     border: #410d68 4px solid;
     border-radius: 8px;
     height: 90%;
     width: 75%;
+}
+
+.line{
+    margin: auto 0 45px 0;
+    width: 3px;
+    background-color: #F9CE47;
+    height: 66%;
 }
 
 .hex-bg-container {
