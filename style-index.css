@@ -289,6 +289,7 @@
         grid-column: 1 / span 1;
         display: flex;
         align-content: center;
+        justify-content: space-between;
     }
 
     .form-container embed {
@@ -296,14 +297,14 @@
         border: #410d68 4px solid;
         border-radius: 8px;
         height: 70vh;
-        width: 80vw;
+        width: 100%;
     }
 
     .line {
-        margin: auto 0 45px 0;
+        margin: 50px 0 0 0;
         width: 3px;
         background-color: #F9CE47;
-        height: 66%;
+        height: 200px;
     }
 
     .hex-bg-container {
