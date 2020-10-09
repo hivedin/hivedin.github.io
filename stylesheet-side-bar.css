@@ -1,0 +1,90 @@
+body{
+    background-image: url(images/background-image-1.png);
+}
+/* material icons begin */
+.material-icons.md-18 {
+    font-size: 18px;
+}
+
+.material-icons.md-20 {
+    font-size: 20px;
+}
+
+.material-icons.md-24 {
+    font-size: 24px;
+}
+
+.material-icons.md-36 {
+    font-size: 36px;
+}
+
+.material-icons.md-48 {
+    font-size: 48px;
+}
+
+/* material icons end */
+
+
+
+.sidebar-container {
+    position: fixed;
+    top: 113px;
+    left: 96px;
+    width: 250px;
+    background-color: #ffffff;
+    border-radius: 8px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.08);
+    opacity: 0.94;
+}
+
+.name {
+    height: 27px;
+    padding: 27px 0 0 0;
+    margin: 0 0 0 37px;
+    font-family: Noto Sans;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 20px;
+    line-height: 27px;
+    color: #5C5C5C;
+}
+
+.primary-menu {
+    margin: 16px 0 30px 0;
+}
+
+.menu-item {
+    display: flex;
+    align-items: center;
+    padding: 4px 0 4px 35px;
+    font-family: Noto Sans;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 22px;
+    color: #333333;
+    margin: 0 0 3px 0;
+    background-color: #ffffff;
+}
+
+.menu-item i {
+    padding-right: 8px;
+}
+
+.menu-item:hover {
+    background-color: #FDE9A9;
+}
+
+.menu-title {
+    margin: 0 0 5px 35px;
+    font-family: Noto Sans;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 22px;
+    color: #5C5C5C;
+}
+
+.secondary-menu{
+    padding: 0 0 30px 0;
+}
