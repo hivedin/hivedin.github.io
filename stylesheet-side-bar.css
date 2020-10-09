@@ -2,6 +2,10 @@ a{
     text-decoration: none;
 }
 
+a:link{
+  text-decoration: none!important;
+}
+
 body{
     background-image: url(images/background-image-1.png);
 }
